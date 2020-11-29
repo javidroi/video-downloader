@@ -10,6 +10,7 @@ import data.storage.OutputStreamFactory
 import domain.model.DownloadViewModel
 import io.reactivex.Observable
 import org.junit.Test
+import org.junit.Ignore
 import java.io.File
 
 class DownloadFileUseCaseTest {
@@ -23,6 +24,7 @@ class DownloadFileUseCaseTest {
     )
 
     @Test
+    @Ignore
     fun `Should return Complete download event`() {
         // Given
         val fileUrl = "downloadUrl"
